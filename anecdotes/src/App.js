@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      {anecdotes[selected]}
+      <p>{anecdotes[selected]}</p>
     </div>
   )
 }
